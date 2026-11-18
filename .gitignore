@@ -1,0 +1,23 @@
+# private: saved conversations and the agent's memory
+*.db
+*.db-*
+sidekick_knowledge.json
+.env
+*.env
+
+# the agent's working folder
+sandbox/
+
+# internal notes
+PROJECT_CONTEXT.md
+
+# python, gradio, editors
+__pycache__/
+*.pyc
+.venv/
+.gradio/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+_*.py
