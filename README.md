@@ -239,6 +239,7 @@ Variables:
 
 This is a public demo, so it runs with limits:
 
+- The worker here is Claude Sonnet 5.5, set through `SIDEKICK_WORKER_MODEL`.
 - The browser, email, push notification, Python and GitHub tools are switched off.
 - Each visit gets its own private folder and thread list. Other visitors cannot see them.
 - The Sidekick can write `.md`, `.txt`, `.csv` and `.json` files (up to 200 KB each, 20 per visit) and one-slide `.pptx` files. Each gets a download link in the log.
