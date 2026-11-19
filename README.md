@@ -287,11 +287,6 @@ Saved threads and written files live on the Space's temporary disk and are clear
 - **A pure renderer.** `render.py` escapes everything that comes from a model, a tool or a user, and renders Markdown with raw HTML off.
 - **One colour, one job.** Cyan for agent activity, yellow for waiting on you, green for success, red for retry or error, grey for secondary text.
 
----
-
-## Acknowledgements
-
-Sidekick Plus builds on the Sidekick from Week 4 of Ed Donner's [Agentic AI course](https://github.com/ed-donner/agents). The `fleet-slide` skill and `slide_kit.py` come from that course's Deep Agents lab. The approval flow and the terminal look are modelled on Claude Code.
 
 ---
 
